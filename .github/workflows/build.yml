@@ -2,7 +2,7 @@ name: Build Patcher
 
 on:
   push:
-    branches: [ main ]
+    branches: [ non-aot ]
 
 env:
   DOTNET_VERSION: '9.0.103'
